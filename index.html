@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visor de Cobertura Municipal | El Maíz es la Raíz</title>
+  <meta name="description" content="Mapa interactivo de cobertura municipal del Componente El Maíz es la Raíz." />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/estilos.min.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <img src="img/logo.png" alt="El Maíz es la Raíz" class="logo" />
+      <div class="title-block">
+        <h1>Cobertura Municipal</h1>
+        <p style="font-size: 1.35em;">Componente “El Maíz es la Raíz”</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="panel">
+      <section class="panel-section">
+        <h2>Consulta de cobertura</h2>
+        <p class="small-text">Consulta la cobertura municipal del Componente “El Maíz es la Raíz”.</p>
+
+        <label for="estadoSelect">Estado</label>
+        <select id="estadoSelect">
+          <option value="">Todos los estados</option>
+        </select>
+
+        <label for="municipioInput">Municipio</label>
+        <div class="search-wrap">
+          <input id="municipioInput" type="text" placeholder="Buscar municipio..." />
+          <span class="search-icon">⌕</span>
+        </div>
+
+        <button id="buscarBtn">🔍 Buscar municipio</button>
+        <button id="limpiarBtn" class="secondary">↻ Limpiar consulta</button>
+      </section>
+
+      <section class="panel-section card" id="resultadoBox">
+        <h3>Resultado</h3>
+        <p>Haz clic sobre un municipio o usa el buscador.</p>
+      </section>
+
+      <section class="panel-section card" id="coordinacionBox">
+        <h3>Coordinación Estatal</h3>
+        <p>Selecciona un municipio para consultar la coordinación correspondiente.</p>
+      </section>
+
+      <section class="panel-section card">
+        <h3>Leyenda</h3>
+        <div class="legend-row"><span class="legend cobertura-emr"></span><span><strong>Cobertura “El Maíz es la Raíz”</strong></span></div>
+        <div class="legend-row"><span class="legend comaleras"></span><span><strong>Comaleras Bienestar</strong></span></div>
+        <div class="notice">Solo se muestran municipios con cobertura del Componente.</div>
+      </section>
+
+      <section class="panel-section card">
+        <h3>Documentos</h3>
+        <a class="doc-link" href="assets/anexo_xvii.pdf" target="_blank" rel="noopener"><span class="pdf-icon">PDF</span><span><strong>Anexo XVII</strong><small>Descargar PDF</small></span><span>›</span></a>
+        <a class="doc-link" href="assets/anexo_xviii.pdf" target="_blank" rel="noopener"><span class="pdf-icon">PDF</span><span><strong>Anexo XVIII</strong><small>Descargar PDF</small></span><span>›</span></a>
+      </section>
+    </aside>
+
+    <section class="map-wrap">
+      <div id="map"></div>
+      <div id="loading" class="loading">Cargando cobertura municipal…</div>
+      <div class="toolbox">
+        <button type="button" id="ubicacionBtn" class="tool-btn">⌖ Ir a mi ubicación</button>
+        <button type="button" id="compartirBtn" class="tool-btn">↗ Compartir</button>
+        <button type="button" id="imprimirBtn" class="tool-btn">⎙ Imprimir</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span><strong>Fuente:</strong> Alimentación para el Bienestar</span>
+    <span class="sep">|</span>
+    <span><strong>Fecha de actualización:</strong> Junio 2026</span>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/mapa.min.js"></script>
+</body>
+</html>
