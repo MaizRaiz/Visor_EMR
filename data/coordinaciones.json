@@ -1,0 +1,170 @@
+{
+  "Chiapas": {
+    "coordinacion": "Chiapas",
+    "responsable": "Eduardo Raymundo Garrido Ramírez",
+    "telefono": "9612906192",
+    "correo": "egarrido@alimentacionbienestar.gob.mx",
+    "oficinas": [
+      {
+        "estado": "Chiapas",
+        "municipio_sede": "Tuxtla Gutiérrez",
+        "localidad": "Tuxtla Gutiérrez",
+        "codigo_postal": "29000",
+        "direccion": "Calle Tulipanes 108, Fracc. Los Laures, C.P. 29020, Tuxtla Gutiérrez. Chiapas.",
+        "maps": "https://maps.app.goo.gl/UyXVFiM2F8YeCEVb8"
+      }
+    ]
+  },
+  "Oficinas Centrales": {
+    "coordinacion": "Oficinas Centrales",
+    "responsable": "Cecilio Mota Cruz",
+    "telefono": "5552290700 Ext. 65865",
+    "correo": "maizraiz@alimentacionbienestar.gob.mx",
+    "oficinas": [
+      {
+        "estado": "Ciudad de México",
+        "municipio_sede": "Tlalpan",
+        "localidad": "Villa Olímpica",
+        "codigo_postal": "14020",
+        "direccion": "Av. Insurgentes Centro 3483, Miguel Hidalgo Villa Olímpica, Tlalpan, 14020 Ciudad de México, CDMX",
+        "maps": "https://maps.app.goo.gl/yHhXU4p5xM9Hppuk7"
+      }
+    ]
+  },
+  "Guerrero": {
+    "coordinacion": "Guerrero",
+    "responsable": "Christian Silva Duran",
+    "telefono": "7471224074",
+    "correo": "chsilva@alimentacionbienestar.gob.mx",
+    "oficinas": [
+      {
+        "estado": "Guerrero",
+        "municipio_sede": "Chilpancingo de los Bravo",
+        "localidad": "Chilpancingo de los Bravo",
+        "codigo_postal": "39085",
+        "direccion": "Calle america del sur, #12 colonia las americas, c.p. 39085, Chilpancingo de los Bravo, Guerrero",
+        "maps": "https://maps.app.goo.gl/6tQ7Dx1Jnk4y2GhM9"
+      }
+    ]
+  },
+  "Oaxaca": {
+    "coordinacion": "Oaxaca",
+    "responsable": "Abel Jaime Leal González",
+    "telefono": "5514747824",
+    "correo": "lealg@bienestaralimentación.gob.mx",
+    "oficinas": [
+      {
+        "estado": "Oaxaca",
+        "municipio_sede": "Oaxaca de Juárez",
+        "localidad": "Santa Rosa",
+        "codigo_postal": "68274",
+        "direccion": "Carretera, Cristobal Colón 814. Santa Rosa, Oaxaca de Juárez, Oaxaca",
+        "maps": "https://maps.app.goo.gl/Rsdb5q9KpNTwjEax5?g_st=aw"
+      }
+    ]
+  },
+  "Yucatán - Quintana Roo": {
+    "coordinacion": "Yucatán - Quintana Roo",
+    "responsable": "Jaynet González Alvarado",
+    "telefono": "9991757718",
+    "correo": "jalvarado@alimentacionbienestar.gob.mx",
+    "oficinas": [
+      {
+        "estado": "Quintana Roo",
+        "municipio_sede": "Chetumal",
+        "localidad": "Chetumal",
+        "codigo_postal": "77049",
+        "direccion": "Carretera Chetumal-Bacalar km 3.5, Col, Fovissste V etapa, 77049 Chetumal, Q.R.",
+        "maps": "https://maps.app.goo.gl/KKvDxqqwMvT5bpyw8"
+      },
+      {
+        "estado": "Yucatán",
+        "municipio_sede": "Mérida",
+        "localidad": "Mérida",
+        "codigo_postal": "97288",
+        "direccion": "C. 19, #319 x 26 y 28 Cd Industrial, 97288 Mérida, Yuc.",
+        "maps": "https://maps.app.goo.gl/vrZzkP57LUv6ThPbA"
+      }
+    ]
+  },
+  "Campeche - Tabasco": {
+    "coordinacion": "Campeche - Tabasco",
+    "responsable": "Carlos Cecilio Zi Dzib",
+    "telefono": "9967308785",
+    "correo": "czi@alimentacionbienestar.gob.mx",
+    "oficinas": [
+      {
+        "estado": "San Francisco de Campeche",
+        "municipio_sede": "Campeche",
+        "localidad": "Lerma",
+        "codigo_postal": "24500",
+        "direccion": "Av. Quinta por cerros lote 9 y 18, ciudad industrial. C.P. 24500, Lerma Campeche",
+        "maps": "https://maps.app.goo.gl/hC1CKHNMNg1xbRbP9?g_st=aw"
+      },
+      {
+        "estado": "Tabasco",
+        "municipio_sede": "Centro",
+        "localidad": "Villahermosa",
+        "codigo_postal": "86010",
+        "direccion": "Av. Aluminio, s/n,  Col. Cd Industrial, C.P. 86010, Villahermosa, Tab.",
+        "maps": "https://maps.app.goo.gl/Bbsf12hmV5jSJUEeA"
+      }
+    ]
+  },
+  "Quintana Roo - Yucatán": {
+    "coordinacion": "Yucatán - Quintana Roo",
+    "responsable": "Jaynet González Alvarado",
+    "telefono": "9991757718",
+    "correo": "jalvarado@alimentacionbienestar.gob.mx",
+    "oficinas": [
+      {
+        "estado": "Quintana Roo",
+        "municipio_sede": "Chetumal",
+        "localidad": "Chetumal",
+        "codigo_postal": "77049",
+        "direccion": "Carretera Chetumal-Bacalar km 3.5, Col, Fovissste V etapa, 77049 Chetumal, Q.R.",
+        "maps": "https://maps.app.goo.gl/KKvDxqqwMvT5bpyw8"
+      },
+      {
+        "estado": "Yucatán",
+        "municipio_sede": "Mérida",
+        "localidad": "Mérida",
+        "codigo_postal": "97288",
+        "direccion": "C. 19, #319 x 26 y 28 Cd Industrial, 97288 Mérida, Yuc.",
+        "maps": "https://maps.app.goo.gl/vrZzkP57LUv6ThPbA"
+      }
+    ]
+  },
+  "México": {
+    "coordinacion": "Oficinas Centrales",
+    "responsable": "Cecilio Mota Cruz",
+    "telefono": "5552290700 Ext. 65865",
+    "correo": "maizraiz@alimentacionbienestar.gob.mx",
+    "oficinas": [
+      {
+        "estado": "Ciudad de México",
+        "municipio_sede": "Tlalpan",
+        "localidad": "Villa Olímpica",
+        "codigo_postal": "14020",
+        "direccion": "Av. Insurgentes Centro 3483, Miguel Hidalgo Villa Olímpica, Tlalpan, 14020 Ciudad de México, CDMX",
+        "maps": "https://maps.app.goo.gl/yHhXU4p5xM9Hppuk7"
+      }
+    ]
+  },
+  "Estado de México": {
+    "coordinacion": "Oficinas Centrales",
+    "responsable": "Cecilio Mota Cruz",
+    "telefono": "5552290700 Ext. 65865",
+    "correo": "maizraiz@alimentacionbienestar.gob.mx",
+    "oficinas": [
+      {
+        "estado": "Ciudad de México",
+        "municipio_sede": "Tlalpan",
+        "localidad": "Villa Olímpica",
+        "codigo_postal": "14020",
+        "direccion": "Av. Insurgentes Centro 3483, Miguel Hidalgo Villa Olímpica, Tlalpan, 14020 Ciudad de México, CDMX",
+        "maps": "https://maps.app.goo.gl/yHhXU4p5xM9Hppuk7"
+      }
+    ]
+  }
+}
